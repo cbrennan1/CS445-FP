@@ -14,6 +14,7 @@ sudo apt-get install python3-pip python-dev
 sudo apt install openjdk-17-jdk
 python3 --version
 pip3 --version
+java --version
 ```
 
 2. Install Gradle 7.4.2

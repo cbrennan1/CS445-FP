@@ -8,4 +8,9 @@ class TestAccounts(unittest.TestCase):
         self.assertEqual(httpStatusCheck, 200)
 
     def test_uidcheck(self):
-
+        zerouid = Accounts(uid0)
+        oneuid = Accounts(uid1)
+        twouid = Accounts(uid2)
+        self.assertEqual(zerouid, '<uid0>')
+        self.assertEqual(oneuid, '<uid1>')
+        self.assertEqual(twouid, '<uid2>')
