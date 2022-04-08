@@ -6,11 +6,11 @@
   - The assumption is that this is ran on a fresh installation of Ubuntu 20.04.3
 
 ## Set Up
-1. Install openjdk-17-jdk
+1. Install Python 3.8 if not already installed
 ```
 sudo apt update
-sudo apt install openjdk-17-jdk
-java -version
+sudo apt-get install python3.8
+python3 --version
 ```
 
 2. Install Gradle 7.4.2
