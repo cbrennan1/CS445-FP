@@ -19,7 +19,7 @@ for val in list:
 	print( val.uid, val.name, val.address, val.phone, val.picture, val.is_active, val.date_created)
 
 
-
+#Return website status
 website = 'http://localhost:8080/bn/api'
 def httpstatus(website):
     response = requests.get(website)
