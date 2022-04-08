@@ -26,7 +26,6 @@ def httpstatus(website):
     status = response.status_code
     return status
 
-print(status)
 #Return UID
 def uidcheck(list):
 	uid0 = list[0].uid
