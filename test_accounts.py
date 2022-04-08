@@ -14,3 +14,6 @@ class TestAccounts(unittest.TestCase):
         self.assertEqual(zerouid, '<uid0>')
         self.assertEqual(oneuid, '<uid1>')
         self.assertEqual(twouid, '<uid2>')
+
+if __name__ == '__main__':
+    unittest.main()
