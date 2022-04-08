@@ -27,11 +27,24 @@ def httpstatus(website):
     return status
 
 #Return UID
-def uidcheck(list):
+def uidcheck0(list):
 	uid0 = list[0].uid
+	return uid0
+def uidcheck1(list):
 	uid1 = list[1].uid
+	return uid1
+def uidcheck2(list):
 	uid2 = list[2].uid
-	return uid0, uid1, uid2
+	return uid2
 
+uid2 = list[2].uid
+uid1 = list[1].uid
+uid0 = list[0].uid
 httpstatus(website)
-uidcheck(list)
+uidcheck0(list)
+uidcheck1(list)
+uidcheck2(list)
+print("UIDS\n")
+print(uid0)
+print(uid1)
+print(uid2)
