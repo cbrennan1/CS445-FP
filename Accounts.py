@@ -20,7 +20,7 @@ for val in list:
 
 
 #Return website status
-website = 'http:www.google.com'
+website = 'https://www.google.com'
 def httpstatus(website):
     response = requests.get(website)
     status = response.status_code
