@@ -18,7 +18,6 @@ list.append ( accounts('<uid2>', 'CSR #1', "101 W Main St.", "(847) 842-8048", "
 for val in list:
 	print( val.uid, val.name, val.address, val.phone, val.picture, val.is_active, val.date_created)
 
-print(list[1].uid)
 
 
 website = 'http://localhost:8080/bn/api'
@@ -27,6 +26,7 @@ def httpstatus(website):
     status = response.status_code
     return status
 
+print(status)
 #Return UID
 def uidcheck(list):
 	uid0 = list[0].uid
