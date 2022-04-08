@@ -10,7 +10,9 @@
 ```
 sudo apt update
 sudo apt-get install python3.8
+sudo apt-get install python3-pip python-dev
 python3 --version
+pip3 --version
 ```
 
 2. Install Gradle 7.4.2
