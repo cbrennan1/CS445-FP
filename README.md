@@ -2,15 +2,16 @@
 ## Colin Brennan
 
 ## What is this repository for?
-  - The project is setup to implement Gradle, Java 17, as well as Apache Tomcat 10.
+  - The project is setup to implement Gradle, Java 17, Python 3.8, as well as Apache Tomcat 10.
   - The assumption is that this is ran on a fresh installation of Ubuntu 20.04.3
 
 ## Set Up
-1. Install Python 3.8 if not already installed
+1. Install Python 3.8 if not already installed as well as Java 17
 ```
 sudo apt update
 sudo apt-get install python3.8
 sudo apt-get install python3-pip python-dev
+sudo apt install openjdk-17-jdk
 python3 --version
 pip3 --version
 ```
