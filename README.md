@@ -30,7 +30,7 @@ sudo vim /etc/profile.d/gradle.sh
 
 Once the file is open you need to append the following into it.
 ```
-export GRADLE_HOME=/opt/gradle/gradle/7.4.2
+export GRADLE_HOME=/opt/gradle/gradle-7.4.2
 export PATH=${GRADLE_HOME}/bin:${PATH}
 ```
 
