@@ -1,4 +1,4 @@
-# import requests
+import requests
 
 #Define Users in an object list
 class accounts:
@@ -20,7 +20,7 @@ for val in list:
 
 
 #Return website status
-website = 'http://localhost:8080/bn/api'
+website = 'http:www.google.com'
 def httpstatus(website):
     response = requests.get(website)
     status = response.status_code
@@ -31,7 +31,7 @@ def uidcheck(list):
 	uid0 = list[0].uid
 	uid1 = list[1].uid
 	uid2 = list[2].uid
-	return uid1, uid2, uid3
+	return uid0, uid1, uid2
 
 httpstatus(website)
 uidcheck(list)
