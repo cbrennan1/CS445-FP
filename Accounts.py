@@ -32,3 +32,6 @@ def uidcheck(list):
 	uid1 = list[1].uid
 	uid2 = list[2].uid
 	return uid1, uid2, uid3
+
+httpstatus(website)
+uidcheck(list)
