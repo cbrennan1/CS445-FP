@@ -25,6 +25,10 @@ def httpstatus(website):
     response = requests.get(website)
     status = response.status_code
     return status
+# Add User
+def adduser():
+	list.append ( accounts('<uid3>', 'John Smith', "123 Main ST", "312-456-7890", "http://example.com/images/john-smith.jpeg", "false", "<date3>" ))
+
 
 #Return UID
 def uidcheck0():
