@@ -15,8 +15,8 @@ list.append ( accounts('<uid0>', 'Virgil Bistriceanu', "10 West 31st ST", "312-5
 list.append ( accounts('<uid1>', 'Jane Smith', "123 2nd ST", "217-456-7890", "http://example.com/images/jane-smith.jpeg", "false", "<date1>" ))
 list.append ( accounts('<uid2>', 'CSR #1', "101 W Main St.", "(847) 842-8048", "http://example.com/images/jane-smith.jpeg", "true", "<date2>" ))
 
-for val in list:
-	print( val.uid, val.name, val.address, val.phone, val.picture, val.is_active, val.date_created)
+#for val in list:
+#	print( val.uid, val.name, val.address, val.phone, val.picture, val.is_active, val.date_created)
 
 
 #Return website status
@@ -46,3 +46,6 @@ print("\nUIDS")
 uid0 = uidcheck0()
 uid1 = uidcheck1()
 uid2 = uidcheck2()
+print(uid0)
+print(uid1)
+print(uid2)
