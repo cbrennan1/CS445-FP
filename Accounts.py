@@ -34,7 +34,7 @@ def adduser():
 #Return UID
 def uidcheck0():
 	return list[0].uid
-	
+
 
 def uidcheck1():
 	return list[1].uid
