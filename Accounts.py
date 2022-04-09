@@ -20,7 +20,7 @@ list.append ( accounts('<uid2>', 'CSR #1', "101 W Main St.", "(847) 842-8048", "
 
 
 #Return website status
-website = 'https://www.google.com'
+website = 'http://localhost:8080/bn/api'
 def httpstatus(website):
     response = requests.get(website)
     status = response.status_code
@@ -42,6 +42,8 @@ def uidcheck1():
 def uidcheck2():
 	return list[2].uid
 
+adduser()
+print("Website")
 print("\nUIDS")
 uid0 = uidcheck0()
 uid1 = uidcheck1()

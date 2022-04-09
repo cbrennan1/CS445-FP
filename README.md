@@ -12,6 +12,7 @@ sudo apt update
 sudo apt-get install python3.8
 sudo apt-get install python3-pip python-dev
 sudo apt install openjdk-17-jdk
+pip install mod_wsgi-standalone
 python3 --version
 pip3 --version
 java --version
